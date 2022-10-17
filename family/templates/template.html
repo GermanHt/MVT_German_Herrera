@@ -1,0 +1,10 @@
+<h1>My Family 👪 </h1>
+
+{% for member in members %}
+
+<h2>👇</h2>
+<h2>My relative's name is: {{member.name}} {{member.last_name}}</h2>
+<h3>The age of my relative is: {{member.age}}</h3>
+<h4>My family member's birthday is: {{member.birth_date}}</h4>
+
+{% endfor %}
